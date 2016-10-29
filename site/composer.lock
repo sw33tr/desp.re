@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "63c8271f62173127597a7a53c8fc22a2",
-    "content-hash": "51b5e70c7e330bdf3f265560280324a1",
+    "hash": "79de6f790f2a39c1ec0666568bb54f47",
+    "content-hash": "2900b80d58175fefcd4135e956803abf",
     "packages": [
         {
             "name": "composer/installers",
@@ -430,6 +430,26 @@
                 "wp-sync-db"
             ],
             "time": "2016-03-07 16:34:12"
+        },
+        {
+            "name": "wpackagist-theme/storefront",
+            "version": "2.1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/storefront/",
+                "reference": "2.1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/storefront.2.1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/storefront/"
         }
     ],
     "packages-dev": [
