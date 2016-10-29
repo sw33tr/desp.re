@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0cd969d99a45db2c57427bafa6a22168",
-    "content-hash": "002955f1a4042ddfe8e432f7eb3cded6",
+    "hash": "63c8271f62173127597a7a53c8fc22a2",
+    "content-hash": "51b5e70c7e330bdf3f265560280324a1",
     "packages": [
         {
             "name": "composer/installers",
@@ -340,6 +340,32 @@
                 "environment"
             ],
             "time": "2016-09-01 10:05:43"
+        },
+        {
+            "name": "woocommerce/woocommerce",
+            "version": "2.6.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/woocommerce/woocommerce.git",
+                "reference": "15a0fd746a7c151217041081a80d50d46ffe0a6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/woocommerce/woocommerce/zipball/15a0fd746a7c151217041081a80d50d46ffe0a6d",
+                "reference": "15a0fd746a7c151217041081a80d50d46ffe0a6d",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "An e-commerce toolkit that helps you sell anything. Beautifully.",
+            "homepage": "https://woocommerce.com/",
+            "time": "2016-10-20 10:02:44"
         },
         {
             "name": "wp-sync-db/wp-sync-db",
